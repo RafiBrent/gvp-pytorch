@@ -22,7 +22,7 @@ setup(
         'torch_cluster',
         'tqdm',
         'numpy',
-        'sklearn',
+        'scikit-learn', ##Used to be sklearn, but I think this is what was causing all of the installation issues since pip install sklearn is now deprecated
         'atom3d'
     ]
 )
